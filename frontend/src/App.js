@@ -1,17 +1,19 @@
-// import React from 'react';
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
-// function App() {
-//   return (
-//     <>
-//     <h1> Welcome to pro shop</h1>
-//     </>
-//   );
-// }
 
 const App = () => {
   return (
     <>
+    <Header/>
+    <main>
     <h1> Welcome to pro shop</h1>
+    </main>
+
+    <Footer />
+    
+
     </>
   );
 }
